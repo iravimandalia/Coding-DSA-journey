@@ -9,6 +9,9 @@
 * Step 2 & step 3 are interchangeable depending on the problem.
 *
 * With this let's get started and solve how to calculate factorial of a number using recursion.
+*
+* Input - 5
+* Output - 120
 */
 
 public class Factorial {
