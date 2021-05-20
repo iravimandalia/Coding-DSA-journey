@@ -17,7 +17,7 @@ Output : 34
 
 public class Fibonacci {
 	
-	//Fibonacci pure recursive function
+	//Fibonacci pure recursive solution
 	public static int recurFib(int n) {
 		if(n == 0 || n == 1)
 			return n;
@@ -63,6 +63,7 @@ public class Fibonacci {
 		return storage[n];
 	}
 	
+	//driver method
 	public static void main(String[] args) {
 		int n = 9;
 		System.out.println("DP solution: " + fibDp(n));
