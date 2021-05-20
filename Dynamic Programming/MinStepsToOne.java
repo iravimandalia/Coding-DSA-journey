@@ -20,6 +20,7 @@ Step 2 : n = 2 / 2  =  1
 Input: 7
 Output: 3
 
+
 */
 import java.io.*;
 
@@ -108,6 +109,7 @@ public class MinStepsToOne {
 		return minSteps[n];
 	}
 
+	//driver method
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the number: ");
@@ -117,4 +119,5 @@ public class MinStepsToOne {
 		System.out.println("Memoize solution: " + countMinStepsToOneMemoize(n));
         System.out.println("Recursive solution: " + countMinStepsToOneRecur(n));
 	}
+	
 }
